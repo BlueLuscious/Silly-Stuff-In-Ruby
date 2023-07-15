@@ -1,11 +1,13 @@
-#print console
+#write in console
     #puts name
     #puts color
+    #print name
+    #print color
 
 
 #var & const
     #name = "lucio"
-    #color = :red
+    #color = :red (symbol)
     #$name == variable global con $ al principio
 
 
@@ -17,16 +19,21 @@
 
 #array
     #vocalLetter = ["a", "e", "i", "o", "u"]
+    #puts vocalLetter[0]
+    #arreglo.push(name)
 #array.methods
     #puts vocalLetter
+    #puts vocalLetter.delete(u)
+    #puts vocalLetter.delete(vocalLetter[-1])
     #puts vocalLetter.size
     #puts vocalLetter.lenght
     #puts vocalLetter.max
-    #puts vocalLetter.clear
+    #puts vocalLetter.clear (borra todo el array)
     #puts vocalLetter.empty?
     #puts vocalLetter.has_value? "a"
     #puts vocalLetter.has_key? "a"
     #puts vocalLetter.invert
+    #puts vocalLetter.index("a")
 
 
 #hashes
@@ -59,7 +66,6 @@
 
 
 #loops
-
 #while
     #x = 1
     #while x < 5 do
@@ -84,10 +90,8 @@
 
 #each
 #1way
-    #y = 1
-    #[1,2,3,4,5].each do
+    #[1,2,3,4,5].each do |y|
     #    puts "hello #{y}"
-    #    y += 1
     #end
 #2way
     #[1,2,3,4,5].each { |s| puts "hello #{s}"}
@@ -122,10 +126,11 @@
     #puts person1.age
 
 
-#concatenar strings con "<<" (ej. string1 << string2)
+#concatenar strings con "<<" (ej. string1 << string2), tambien sumar elementos al array (ej. vocalLetter << capital)
 #los metodos que retornan booleano siempre llevan "?" al final
 #los métodos que terminan con el signo de exclamación "!" normalmente modifican el contenido de la variable
     #string-methods (upcase, downcase, capitalize, lenght,
     #start_with?("hola"), end_with?("hola"), include?("hola"), gsub!("hola", "hello"))
+    #puts [1,2,3].inspect (devuelve todo como un objeto)
 
 
