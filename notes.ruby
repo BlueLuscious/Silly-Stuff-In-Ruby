@@ -37,7 +37,31 @@
 
 
 #hashes
-    #[["lucio", 21], ["agustin", 18]].to_h
+    #1way
+        #countryMoney = {
+            #"Argentina" => "Peso Argentino"
+            #"Brasil" => "Real"
+            #"Chile" => "Peso Chileno"
+            #"Uruguay" => "Peso Uruguayo"
+            #"Paraguay" => "Guarani"
+        #}
+    #2way
+        #countryMoney = {} o countryMoney = Hash.new
+        #countryMoney["Argentina"] = "Peso Argentino"
+        #countryMoney["Brasil"] = "Real"
+        #countryMoney["Chile"] = "Peso Chileno"
+        #countryMoney["Uruguay"] = "Peso Uruguayo"
+        #countryMoney["Paraguay"] = "Guarani" 
+    #3way
+        #countryMoney = {
+            #Argentina: "Peso Argentino"
+            #Brasil: "Real"
+            #Chile: "Peso Chileno"
+            #Uruguay: "Peso Uruguayo"
+            #Paraguay: "Guarani"
+        #}
+    #4way
+        #[["lucio", 21], ["agustin", 18]].to_h
 
 
 #functions
