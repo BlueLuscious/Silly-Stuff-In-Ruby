@@ -62,6 +62,8 @@
         #}
     #4way
         #[["lucio", 21], ["agustin", 18]].to_h
+    #enter hash through keyboard
+        #countryMoney[country] = money
 
 
 #functions
