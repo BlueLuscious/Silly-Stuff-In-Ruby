@@ -64,6 +64,11 @@
         #[["lucio", 21], ["agustin", 18]].to_h
     #enter hash through keyboard
         #countryMoney[country] = money
+    #delete (delete one or more keys/values)
+        #countryMoney.delete[country]
+        #countryMoney.delete_if {|key, value| valor > 30}
+    #reject (not delete, create a new hash)
+        #countryMoney.reject {|clave, valor| valor > 30}
     #each_value (only call values)
         #countryMoney.each_value {|values| puts values}
 
