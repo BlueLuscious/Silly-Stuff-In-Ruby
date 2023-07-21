@@ -24,3 +24,11 @@ class Moto
     end  
    
 end
+
+#en otro archivo
+    #require_relative 'class.rb'
+    #m = Moto.new('Yamaha', 'rojo')
+    #m.marca
+    #m.color
+    #m.arrancar
+    
